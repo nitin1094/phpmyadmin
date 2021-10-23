@@ -9,7 +9,7 @@ variable vpc_cidr {
 }
 
 variable "environment" {
-  description = "The Deployment environment"
+  description = "The staging environment"
 }
 
 variable "public_subnets_cidr" {
@@ -29,3 +29,4 @@ variable "availability_zones" {
   default     = ["us-east-1a", "us-east-1b"]
   description = "The CIDR block for the private subnet"
 }
+
